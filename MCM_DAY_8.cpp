@@ -29,7 +29,7 @@ int f(int i,int j, vector<int>&a,vector<vector<int>>&dp)
 {
     if(i==j)
     return 0;
-    if(dp[i][j]!==-1)
+    if(dp[i][j]!=-1)
     return dp[i][j];
     int mini=1e9;
     for(int k=i;k<j;k++)
